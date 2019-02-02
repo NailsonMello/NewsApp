@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".CodigoBarra">
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/codigBarras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="78922112233"/>
+
+    <Button
+        android:id="@+id/Escanear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/codigBarras"
+        android:layout_margin="10dp"
+        android:background="#94000000"
+        android:onClick="Escanear"
+        android:text="Scanear codigo"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Escanear"
+        android:layout_margin="10dp"
+        android:background="#94000000"
+        android:text="Picture In Picture"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

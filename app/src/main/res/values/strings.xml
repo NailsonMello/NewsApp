@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Brazil news App</string>
+
+    <string-array name="feed">
+        <item>Principais noticias</item>
+        <item>Esporte</item>
+        <item>Holofote</item>
+        <item>Cultura</item>
+        <item>Saúde</item>
+        <item>Justiça</item>
+        <item>Mulher</item>
+        <item>Eleições</item>
+        <item>Voice</item>
+        <item>Codigo Barras</item>
+        <item>YouTube</item>
+        <item>Catalogo</item>
+        <item>WebCatalogo</item>
+    </string-array>
+</resources>
